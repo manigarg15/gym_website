@@ -28,28 +28,58 @@ body{
     background-image:url("home_background.jpg");
     background-size:cover;
     margin:25px;
-    display:inline-block;
-    display:flex;
-    justify-content:space-between;
 }
-.box{
+#menu{
+    /* border:1px solid pink; */
     height:800px;
+    width:100px;
+    margin:200px 3.5px 200px 50px;
+    font-size:80px;
     display:inline-block;
-    margin-top:200px;
+}
+i{
+    margin:15px;
+    margin-bottom:35px;
+}
+#area{
+    /* border:1px solid pink; */
+    height:900px;
+    width:1590px;
+    display:inline-block;
+    margin:150px 50px 150px 3.5px;
+    position:absolute;
 }
 #box1{
-    width:450px;
-    margin-left:25px;
+    /* border:1px solid pink; */
+    height:800px;
+    width:400px;
+    position:absolute;
+    top:50px;
+    left:10px;
 }
 #box2{
+    /* border:1px solid pink; */
+    height:800px;
     width:400px;
-    margin-right:25px;
+    position:absolute;
+    top:50px;
+    right:10px;
+}
+img{
+    height:200px;
+    width:360px;
+    margin:20px;
 }
 .image{
-    margin-top:100px;
+    margin-top:55px;
 }
-img:hover{
-    border:5px solid red;
+.box1_image:hover{
+    transition-duration:3s;
+    transform:translateX(580px) scale(2,3);
+}
+.box2_image:hover{
+    transition-duration:3s;
+    transform:translateX(-580px) scale(2, 3);
 }
 footer{
     background-color:black;
