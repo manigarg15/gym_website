@@ -34,12 +34,20 @@ body{
     height:800px;
     width:100px;
     margin:200px 3.5px 200px 50px;
-    font-size:80px;
+    font-size:20px;
+    font-weight:bold;
     display:inline-block;
+    color:white;
 }
-i{
-    margin:15px;
-    margin-bottom:35px;
+ul{
+    list-style-type:none;
+    text-align:center;
+}
+ul li{
+    margin-bottom:120px;
+}
+li:hover{
+    border:1px solid red;
 }
 #area{
     /* border:1px solid pink; */
